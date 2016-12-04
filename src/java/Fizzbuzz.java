@@ -4,9 +4,12 @@
 public class Fizzbuzz {
 
     public String results(int input) {
-        if(input == 3) {
+        if(input % 3 == 0) {
             return "Fizz";
         }
-        return "No Fizz";
+        if(input % 5 == 0) {
+            return "Buzz";
+        }
+        return "No Fizzbuzz";
     }
 }

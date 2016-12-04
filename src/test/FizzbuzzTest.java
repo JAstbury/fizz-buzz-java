@@ -22,4 +22,25 @@ public class FizzbuzzTest {
         assertEquals(result,fizzbuzz.results(number));
     }
 
+    @Test
+    public void testFizzWhenSix() {
+        int number = 3;
+        String result = "Fizz";
+        assertEquals(result,fizzbuzz.results(number));
+    }
+
+    @Test
+    public void testBuzzWhenFive() {
+        int number = 5;
+        String result = "Buzz";
+        assertEquals(result,fizzbuzz.results(number));
+    }
+
+    @Test
+    public void testBuzzWhenTen() {
+        int number = 5;
+        String result = "Buzz";
+        assertEquals(result,fizzbuzz.results(number));
+    }
+
 }
