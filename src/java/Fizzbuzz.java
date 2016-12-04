@@ -13,6 +13,6 @@ public class Fizzbuzz {
         if(input % 5 == 0) {
             return "Buzz";
         }
-        return "No Fizzbuzz";
+        return Integer.toString(input);
     }
 }

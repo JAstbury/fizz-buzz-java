@@ -17,44 +17,42 @@ public class FizzbuzzTest {
 
     @Test
     public void testFizzWhenThree() {
-        int number = 3;
-        String result = "Fizz";
-        assertEquals(result,fizzbuzz.results(number));
+        assertEquals("Fizz",fizzbuzz.results(3));
     }
 
     @Test
     public void testFizzWhenSix() {
-        int number = 3;
-        String result = "Fizz";
-        assertEquals(result,fizzbuzz.results(number));
+        assertEquals("Fizz",fizzbuzz.results(3));
     }
 
     @Test
     public void testBuzzWhenFive() {
-        int number = 5;
-        String result = "Buzz";
-        assertEquals(result,fizzbuzz.results(number));
+        assertEquals("Buzz",fizzbuzz.results(5));
     }
 
     @Test
     public void testBuzzWhenTen() {
-        int number = 5;
-        String result = "Buzz";
-        assertEquals(result,fizzbuzz.results(number));
+        assertEquals("Buzz",fizzbuzz.results(5));
     }
 
     @Test
     public void testFizzBuzzWhenFifteen() {
-        int number = 15;
-        String result = "FizzBuzz";
-        assertEquals(result,fizzbuzz.results(number));
+        assertEquals("FizzBuzz",fizzbuzz.results(15));
     }
 
     @Test
     public void testFizzBuzzWhenThirty() {
-        int number = 30;
-        String result = "FizzBuzz";
-        assertEquals(result,fizzbuzz.results(number));
+        assertEquals("FizzBuzz",fizzbuzz.results(30));
+    }
+
+    @Test
+    public void testNumberWhenTwo() {
+        assertEquals("2",fizzbuzz.results(2));
+    }
+
+    @Test
+    public void testNumberWhenSeven() {
+        assertEquals("7",fizzbuzz.results(7));
     }
 
 }
