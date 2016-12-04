@@ -22,7 +22,7 @@ public class FizzbuzzTest {
 
     @Test
     public void testFizzWhenSix() {
-        assertEquals("Fizz",fizzbuzz.results(3));
+        assertEquals("Fizz",fizzbuzz.results(6));
     }
 
     @Test
@@ -32,7 +32,7 @@ public class FizzbuzzTest {
 
     @Test
     public void testBuzzWhenTen() {
-        assertEquals("Buzz",fizzbuzz.results(5));
+        assertEquals("Buzz",fizzbuzz.results(10));
     }
 
     @Test
