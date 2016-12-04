@@ -43,4 +43,18 @@ public class FizzbuzzTest {
         assertEquals(result,fizzbuzz.results(number));
     }
 
+    @Test
+    public void testFizzBuzzWhenFifteen() {
+        int number = 15;
+        String result = "FizzBuzz";
+        assertEquals(result,fizzbuzz.results(number));
+    }
+
+    @Test
+    public void testFizzBuzzWhenThirty() {
+        int number = 30;
+        String result = "FizzBuzz";
+        assertEquals(result,fizzbuzz.results(number));
+    }
+
 }
